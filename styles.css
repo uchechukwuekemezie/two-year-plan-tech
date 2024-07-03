@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #72ade9;
+  padding: 10px;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav h2 {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 5%;
+}
+
+/* Tablet styles */
+@media (min-width: 600px) {
+  header div {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  nav h1 {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 100px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  nav h1 {
+    font-size: 2em;
+  }
+
+  img {
+    width: 120px;
+  }
+}
+
+/* For the section area */
+
+section {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+/* Tablet styles */
+@media (min-width: 600px) {
+  h3 {
+    font-size: 1.75em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  article {
+    padding: 30px;
+  }
+}

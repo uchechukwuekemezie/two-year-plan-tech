@@ -4,16 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>two year plan</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <div>
         <nav>
-          <h1>Uchechukwu Ekemezie</h1>
-          <h1>ucheemekaekemezie@gmail.com</h1>
+          <h2 data-testid="slackDisplayName">Uchechukwu Ekemezie</h2>
+          <h2 data-testid="slackEmail">ucheemekaekemezie@gmail.com</h2>
+          <a href="http://hng.tech/learn" data-testid="hngLink">HNG tech</a>
+          <a href="http://keyword.dog/" data-testid="keywordLink"
+            >Keyword link</a
+          >
+          <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink"
+            >Scrape any web</a
+          >
         </nav>
-        <img src="./image/Portfolio_picture.jpg" alt="profile picture" />
+        <img
+          src="./image/Portfolio_picture.jpg"
+          alt="profile picture"
+          data-testid="slackProfilePicture"
+        />
       </div>
     </header>
+    <section>
+      <article>
+        <div>
+          <h3>My Two Year Plan In Tech</h3>
+          <p>
+            My two-year plan in tech is to maximize my learning to the best of
+            my abilities while I build in demand applications to harness my
+            skills. The sequence of my planning is as follows: Active Learning:
+            I intend to actively learn the ropes of the relevant technologies
+            related to the field of software engineering. These specific
+            technologies include but not limited to, ReactJS, React Native,
+            Angular, Python, MongoDB, SQL and server technologies. The goal of
+            this process is to be proficient in front end as well as the
+            back-end side of Software Engineering. Project Building: This is
+            another aspect of my learning plan where I intend to utilize the
+            knowledge obtained into practicable aspects by building in demand
+            applications and solutions. I also intend to contribute on open
+            source projects and participate in various hackathons that I’ll be
+            privy to.
+          </p>
+          <div id="dateTime"></div>
+        </div>
+      </article>
+    </section>
+
+    <script src="./app.js"></script>
   </body>
 </html>
